@@ -5,7 +5,7 @@ fun main() {
     dog.name = "Bob"
     dog.sayHi()
 
-    val dogSara = Dog("Lara")
+    val dogSara = Dog("Sara")
     dogSara.name = "Lara"
     dogSara.sayHi()
 
