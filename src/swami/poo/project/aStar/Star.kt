@@ -1,12 +1,12 @@
 package swami.poo.project.aStar
 
 fun main() {
-    val dog = Dog()
+    val dog = Dog("Swami")
     dog.name = "Bob"
-    dog.sayHi("Swami Romão")
+    dog.sayHi()
 
-    val dogSara = Dog()
+    val dogSara = Dog("Lara")
     dogSara.name = "Lara"
-    dogSara.sayHi("Sara")
+    dogSara.sayHi()
 
 }
