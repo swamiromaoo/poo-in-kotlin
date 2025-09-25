@@ -1,10 +1,12 @@
 package swami.poo.project.bCars_inheritance
 
-class Car {
+class Car constructor(
+    private val motor: Motor
+) {
 
     var color: String? = null
 
-    fun ignition(){
+    fun ignition() {
 
     }
 
@@ -18,7 +20,7 @@ class Car {
 
     }
 
-    fun brake(){
+    fun brake() {
         println("The car is slowing down...")
 
     }

@@ -9,6 +9,7 @@ fun main() {
     motor.turnOff()
     println("Motor is ${motor.status()}")
 
-    val car = Car()
+    val car = Car(motor)
+    car.accelerator()
 
 }
