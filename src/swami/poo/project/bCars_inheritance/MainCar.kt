@@ -1,8 +1,14 @@
 package swami.poo.project.bCars_inheritance
 
-fun main (){
+fun main() {
+
+    val motor = Motor()
+    motor.turnOn()
+    println("Motor is ${motor.status()}")
+
+    motor.turnOff()
+    println("Motor is ${motor.status()}")
 
     val car = Car()
-    car.accelerator()
 
 }

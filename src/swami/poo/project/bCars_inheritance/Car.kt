@@ -4,6 +4,10 @@ class Car {
 
     var color: String? = null
 
+    fun ignition(){
+
+    }
+
     fun accelerator() {
         println("Vruumm Vruuuummmm!!!!!!")
 
