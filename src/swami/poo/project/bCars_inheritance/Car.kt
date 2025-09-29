@@ -6,7 +6,8 @@ class Car constructor(
 
     var color: String? = null
 
-    fun ignition() {
+    fun on() {
+        motor
 
     }
 

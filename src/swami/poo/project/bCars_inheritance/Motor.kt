@@ -12,7 +12,7 @@ class Motor {
         on= false
     }
 
-    fun status(): String{
-        return if (on) "On" else "Off"
+    fun status(): Boolean{
+        return on
     }
 }
