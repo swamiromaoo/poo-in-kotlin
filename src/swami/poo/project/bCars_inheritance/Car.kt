@@ -7,13 +7,22 @@ class Car constructor(
     var color: String? = null
 
     fun on() {
-        motor
+        println("Starting the car...")
+        motor.turnOn()
 
     }
 
-    fun accelerator() {
-        println("Vruumm Vruuuummmm!!!!!!")
+    fun off(){
+        println("Turning off the car...")
+        motor.turnOff()
+    }
 
+    fun accelerator() {
+        if (motor.status()) {
+            println("Vruumm Vruuuummmm!!!!!!")
+        }else{
+            println("Fist start the car!")
+        }
     }
 
     fun horn() {
